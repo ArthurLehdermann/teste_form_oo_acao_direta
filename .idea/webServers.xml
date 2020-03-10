@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="6e05a1a2-a9d5-4d2e-b0f0-cfc2ca445dea" name="RH Ação Direta - TESTE FORM OO" url="http://h20.meuserver.com/php">
+        <fileTransfer host="h20.meuserver.com" port="21" accessType="FTPS">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="de2a6a64-9d12-4939-aa65-effe78c639b6" name="XMP" url="http://acao-direta.lehdermann.com/">
+        <fileTransfer host="lehdermann.com.br" port="1157" rootFolder="/home/lehderma/sandbox/acaodireta" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="1157" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
